@@ -1,3 +1,17 @@
+## New in v3: stronger strategy model
+
+The original **v2 engine and War of 56 archive are preserved**. Version 3 adds externally configurable civilization profiles, more realistic siege defense and fatigue, and explicit (still approximate) mechanics for T1, Triumphal Imperium, Lantern Fleet, First Drafts and Boundless City.
+
+```bash
+python -m unittest discover -s tests -v
+python engine/sim56_v3.py --seed 20261103 --snapshot-every 25
+python replay/build_war56_v3_replay.py
+```
+
+Open `output/war56_v3_interactive_replay.html`. The baseline v3 showcase is seed `20261103`; see [v3 design notes](docs/V3_UPGRADE.md) for limitations. **Neither v2 nor v3 plays real Civ V or executes the mods' Lua logic.**
+
+---
+
 # Civ Simulation
 
 A reproducible **strategic macro-simulator** for custom *Civilization V: Brave New World* civilizations. The current baseline is **War of 56 — Balanced Mega-Simulation 2.0**, using an approximate Marathon calendar, 56 civilization profiles, 11 City-States, turn-by-turn model decisions, and political-map checkpoints every 25 turns.
