@@ -1,0 +1,57 @@
+{
+  "model_version": "3.0",
+  "seed": 20261103,
+  "warning": "Stylized numerical strategy simulation, not native Civ V / CP151 gameplay",
+  "winner": {
+    "name": "The Sol Intellect",
+    "type": "Science",
+    "turn": 844
+  },
+  "stats": {
+    "civilizations": 56,
+    "city_states": 11,
+    "map_checkpoints": 35,
+    "wars_declared": 134,
+    "founding_capitals_conquered": 5,
+    "campaign_events": 693
+  },
+  "top_score": [
+    {
+      "rank": 1,
+      "civ": "The Republic of First Drafts",
+      "score": 581
+    },
+    {
+      "rank": 2,
+      "civ": "The Lantern Fleet",
+      "score": 535
+    },
+    {
+      "rank": 3,
+      "civ": "The Triumphal Imperium",
+      "score": 495
+    },
+    {
+      "rank": 4,
+      "civ": "The Fleshborn Chorus",
+      "score": 488
+    },
+    {
+      "rank": 5,
+      "civ": "T1 — The ZOFGK Dynasty",
+      "score": 469
+    },
+    {
+      "rank": 6,
+      "civ": "The Colony",
+      "score": 464
+    },
+    {
+      "rank": 7,
+      "civ": "The Substitute Classroom",
+      "score": 446
+    }
+  ],
+  "reproduce": "python engine/sim56_v3.py --seed 20261103 --snapshot-every 25",
+  "caveat": "These are illustrative results from one fixed seed, not measured balance."
+}
