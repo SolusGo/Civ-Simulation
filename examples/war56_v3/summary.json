@@ -5,51 +5,51 @@
   "winner": {
     "name": "The Sol Intellect",
     "type": "Science",
-    "turn": 793
+    "turn": 844
   },
   "stats": {
     "civilizations": 56,
     "city_states": 11,
-    "map_checkpoints": 33,
-    "wars_declared": 114,
-    "founding_capitals_conquered": 8,
-    "campaign_events": 556
+    "map_checkpoints": 35,
+    "wars_declared": 134,
+    "founding_capitals_conquered": 5,
+    "campaign_events": 693
   },
   "top_score": [
     {
       "rank": 1,
       "civ": "The Republic of First Drafts",
-      "score": 543
+      "score": 581
     },
     {
       "rank": 2,
-      "civ": "The Triumphal Imperium",
-      "score": 502
+      "civ": "The Lantern Fleet",
+      "score": 535
     },
     {
       "rank": 3,
-      "civ": "The Urgal",
-      "score": 491
+      "civ": "The Triumphal Imperium",
+      "score": 495
     },
     {
       "rank": 4,
-      "civ": "The Jin Dynasty",
-      "score": 453
+      "civ": "The Fleshborn Chorus",
+      "score": 488
     },
     {
       "rank": 5,
-      "civ": "The Colony",
-      "score": 451
+      "civ": "T1 — The ZOFGK Dynasty",
+      "score": 469
     },
     {
       "rank": 6,
-      "civ": "T1 — The ZOFGK Dynasty",
-      "score": 449
+      "civ": "The Colony",
+      "score": 464
     },
     {
       "rank": 7,
-      "civ": "The Lantern Fleet",
-      "score": 444
+      "civ": "The Substitute Classroom",
+      "score": 446
     }
   ],
   "reproduce": "python engine/sim56_v3.py --seed 20261103 --snapshot-every 25",
